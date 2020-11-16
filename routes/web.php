@@ -25,5 +25,11 @@ Route::prefix('admin')->group(function() {
     Route::post('/login', [App\Http\Controllers\Auth\AdminLoginController::class, 'login'])->name('admin.login.submit');
     Route::get('/register', [App\Http\Controllers\Auth\AdminRegisterController::class, 'showRegForm'])->name('admin.register');
     Route::post('/register', [App\Http\Controllers\Auth\AdminRegisterController::class, 'register'])->name('admin.register.submit');
+    Route::get('/addproperties', [App\Http\Controllers\PropertyController::class, 'showAddForm'])->name('admin.addproperties');
+    Route::post('/addproperties', [App\Http\Controllers\PropertyController::class, 'addProperties'])->name('admin.addproperties.submit');
+    Route::get('/viewproperties', [App\Http\Controllers\PropertyController::class, 'viewProperties'])->name('admin.viewproperties');
+    Route::match(['get','post'],'/edit-properties/{id}', [App\Http\Controllers\PropertyController::class, 'editProperties'])->name('admin.editproperties');
+    // Route::post('/edit-properties/{id}/done', [App\Http\Controllers\PropertyController::class, 'editProperties'])->name('admin.editproperties.submit');
+    Route::get('/delete-property/{id}', [App\Http\Controllers\PropertyController::class, 'deleteProperty'])->name('admin.deleteproperty');
     Route::get('/', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.dashboard');
 });

@@ -55,12 +55,15 @@ class AdminRegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:admins'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'phone' => ['required', 'numeric', 'min:1000000000','max:9999999999','unique:admins']
         ]);
+        
         
         $admin = Admin::create([
             'name' => $request['name'],
             'email' => $request['email'],
             'password' => Hash::make($request['password']),
+            'phone' => $request['phone']
         ]);
         return redirect()->intended('admin/login');
     }

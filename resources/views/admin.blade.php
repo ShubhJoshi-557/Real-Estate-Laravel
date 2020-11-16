@@ -15,7 +15,11 @@
                     @endif
 
                     {{ __('You are logged in as SELLER') }}
+                    <br><hr>
+                    <a href="{{ route('admin.addproperties') }}" class="text-sm text-blue-700 underline">Add Properties</a><br><hr>
+                    <a href="{{ route('admin.viewproperties') }}" class="text-sm text-blue-700 underline">View/Manage Your Properties</a><br>
                 </div>
+
             </div>
         </div>
     </div>
