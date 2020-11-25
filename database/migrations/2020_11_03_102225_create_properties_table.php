@@ -25,6 +25,7 @@ class CreatePropertiesTable extends Migration
             $table->string('area');
             $table->string('address');
             $table->string('image');
+            $table->string('available')->default('yes');
             $table->timestamps();
         });
     }

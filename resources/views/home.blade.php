@@ -15,6 +15,10 @@
                     @endif
 
                     {{ __('You are logged in as Buyer') }}
+                    <br><hr>
+                    <a href="{{ url('/browseProperties') }}" class="text-sm text-blue-700 underline">Browse Properties</a><br>
+                    <br><hr>
+                    <a href="{{ url('/bookings') }}" class="text-sm text-blue-700 underline">Check your Bookings</a><br>
                 </div>
             </div>
         </div>

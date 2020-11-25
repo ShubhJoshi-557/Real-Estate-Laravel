@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\Models\Property;
+use App\Models\Booking;
 use App\Models\Amenity;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Http\Request;
@@ -12,8 +13,6 @@ use DB;
 
 class PropertyController extends Controller
 {
-    
-
     public function __construct()
     {
         $this->middleware('auth:admin');
@@ -61,8 +60,7 @@ class PropertyController extends Controller
             'city' => $request['city'],
             'area' => $request['area'],
             'address' => $request['address'],
-            'image' => $imagename,
-            
+            'image' => $imagename
         ]);
 
         $property_id = DB::table('properties')->get()->last()->id;
