@@ -24,6 +24,9 @@ Route::get('/browseProperties', [App\Http\Controllers\PropertyBookController::cl
 Route::get('/bookings' , [App\Http\Controllers\BookingController::class, 'index'])->name('bookings');
 
 Route::post('/buyer/make-booking/{id}', [App\Http\Controllers\PropertyBookController::class, 'makeBooking']);
+
+Route::get('/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSingleProperty']);
+
 Route::prefix('admin')->group(function() {
     Route::get('/login', [App\Http\Controllers\Auth\AdminLoginController::class, 'showLoginForm'])->name('admin.login');
     Route::post('/login', [App\Http\Controllers\Auth\AdminLoginController::class, 'login'])->name('admin.login.submit');
@@ -31,6 +34,7 @@ Route::prefix('admin')->group(function() {
     Route::post('/register', [App\Http\Controllers\Auth\AdminRegisterController::class, 'register'])->name('admin.register.submit');
     Route::get('/addproperties', [App\Http\Controllers\PropertyController::class, 'showAddForm'])->name('admin.addproperties');
     Route::post('/addproperties', [App\Http\Controllers\PropertyController::class, 'addProperties'])->name('admin.addproperties.submit');
+    Route::get('/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSinglePropertyAsSeller']);
     Route::get('/viewproperties', [App\Http\Controllers\PropertyController::class, 'viewProperties'])->name('admin.viewproperties');
     Route::match(['get','post'],'/edit-properties/{id}', [App\Http\Controllers\PropertyController::class, 'editProperties'])->name('admin.editproperties');
     // Route::post('/edit-properties/{id}/done', [App\Http\Controllers\PropertyController::class, 'editProperties'])->name('admin.editproperties.submit');

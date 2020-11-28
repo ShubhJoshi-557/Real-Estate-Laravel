@@ -27,7 +27,7 @@ class PropertyBookController extends Controller
     
     public function makeBooking($id){
 
-        echo Property::find($id);
+        // echo Property::find($id);
 
         $currentProperty = Property::find($id);
         $booking = new Booking();
