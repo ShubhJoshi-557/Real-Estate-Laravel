@@ -27,7 +27,7 @@
                     ?>
                     <div class="col-md-4">
                         <div class="property-wrap">
-                            <a href="{{ url('/property-single-view/'.$property->id) }}" class="img" style="background-image: url(images/work-1.jpg);">
+                            <a href="{{ url('/property-single-view/'.$property->id) }}" class="img" style="background-image: url({{ asset('images/'.$property->image) }});">
                                 <div class="rent-sale">
                                     <span class="sale">{{ $property -> sale_rent }}</span>
                                 </div>
