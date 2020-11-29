@@ -25,9 +25,21 @@ Route::get('/bookings' , [App\Http\Controllers\BookingController::class, 'index'
 
 Route::post('/buyer/make-booking/{id}', [App\Http\Controllers\PropertyBookController::class, 'makeBooking']);
 
-Route::get('/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSingleProperty']);
+
 
 Route::get('/feedback', [App\Http\Controllers\FeedbackController::class, 'index'])->name('feedback');
+
+Route::group(['middleware' => ['auth']], function()
+{
+    Route::get('/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSingleProperty']);
+    // Route::get('admin/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSinglePropertyAsSeller']);
+});
+
+Route::group(['middleware' => ['auth:admin']], function()
+{
+    // Route::get('/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSingleProperty']);
+    Route::get('admin/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSinglePropertyAsSeller']);
+});
 
 Route::prefix('admin')->group(function() {
     Route::get('/login', [App\Http\Controllers\Auth\AdminLoginController::class, 'showLoginForm'])->name('admin.login');
@@ -36,8 +48,8 @@ Route::prefix('admin')->group(function() {
     Route::post('/register', [App\Http\Controllers\Auth\AdminRegisterController::class, 'register'])->name('admin.register.submit');
     Route::get('/addproperties', [App\Http\Controllers\PropertyController::class, 'showAddForm'])->name('admin.addproperties');
     Route::post('/addproperties', [App\Http\Controllers\PropertyController::class, 'addProperties'])->name('admin.addproperties.submit');
-    Route::get('/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSinglePropertyAsSeller']);
-    Route::get('/viewproperties', [App\Http\Controllers\PropertyController::class, 'viewProperties'])->name('admin.viewproperties');
+    
+    Route::get('/viewproperties', [App\Http\Controllers\PropertyController::class, 'viewProperties'])->middleware('auth:admin')->name('admin.viewproperties');
     Route::match(['get','post'],'/edit-properties/{id}', [App\Http\Controllers\PropertyController::class, 'editProperties'])->name('admin.editproperties');
     // Route::post('/edit-properties/{id}/done', [App\Http\Controllers\PropertyController::class, 'editProperties'])->name('admin.editproperties.submit');
     Route::get('/delete-property/{id}', [App\Http\Controllers\PropertyController::class, 'deleteProperty'])->name('admin.deleteproperty');
