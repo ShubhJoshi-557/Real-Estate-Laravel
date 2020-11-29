@@ -10,6 +10,11 @@ class PropertySingleViewController extends Controller
 {
     protected $table = 'properties';
 
+    public function __construct()
+    {
+        $this->middleware('auth:admin');
+    }
+
     public function viewSingleProperty($id){
 
         $property = Property::find($id);

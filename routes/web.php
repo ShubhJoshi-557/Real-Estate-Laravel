@@ -27,6 +27,8 @@ Route::post('/buyer/make-booking/{id}', [App\Http\Controllers\PropertyBookContro
 
 Route::get('/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSingleProperty']);
 
+Route::get('/feedback', [App\Http\Controllers\FeedbackController::class, 'index'])->name('feedback');
+
 Route::prefix('admin')->group(function() {
     Route::get('/login', [App\Http\Controllers\Auth\AdminLoginController::class, 'showLoginForm'])->name('admin.login');
     Route::post('/login', [App\Http\Controllers\Auth\AdminLoginController::class, 'login'])->name('admin.login.submit');

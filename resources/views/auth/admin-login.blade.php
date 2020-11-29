@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image:url({{url('images/bg_1.jpg')}});" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
     <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -14,10 +14,10 @@
 </section>
 
 <div class="container p-5">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Seller Login') }}</div>
+    <div class="row block-9 justify-content-center mb-5">
+        <div class="col-md-8 mb-md-5">
+            <div class="card bg-light">
+                <!-- <div class="card-header">{{ __('Seller Login') }}</div> -->
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('admin.login.submit') }}">
