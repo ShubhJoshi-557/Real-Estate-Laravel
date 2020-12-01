@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- <title>{{ config('app.name', 'Laravel') }}</title> -->
-    <title>Real Estate Website</title>
+    <title>EZHomes</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -22,7 +22,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&amp;display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
     
@@ -38,7 +38,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	        <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">Ecoverde</a>
+                <a class="navbar-brand" href="{{ url('/') }}">EZHomes</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="oi oi-menu"></span> Menu
                 </button>
@@ -96,7 +96,7 @@
 		<div class="row mb-5">
 		<div class="col-md">
 			<div class="ftco-footer-widget mb-4">
-			<h2 class="ftco-heading-2">Ecoverde</h2>
+			<h2 class="ftco-heading-2">EZHomes</h2>
 			<p>Far far away, behind the word mountains, far from the countries.</p>
 			<ul class="ftco-footer-social list-unstyled mt-5">
 				<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>

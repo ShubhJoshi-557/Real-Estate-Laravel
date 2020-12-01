@@ -2,7 +2,7 @@
 <html lang="en">
 	
 <head>
-		<title>Ecoverde - Free Bootstrap 4 Template by Colorlib</title>
+		<title>EZHomes</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
@@ -23,7 +23,7 @@
 		
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 			<div class="container">
-				<a class="navbar-brand" href="index-2.html">Ecoverde</a>
+				<a class="navbar-brand" href="index-2.html">EZHomes</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="oi oi-menu"></span> Menu
 				</button>
@@ -60,7 +60,7 @@
 				<div class="row no-gutters slider-text align-items-center">
 					<div class="col-lg-7 col-md-6 ftco-animate d-flex align-items-end">
 						<div class="text">
-							<h1 class="mb-4">Find Perfect <br>House From Your Area.</h1>
+							<h1 class="mb-4">Buy and Sale <br>Of Properties Now Made Easy.</h1>
 							<p style="font-size: 18px;">From as low as $20 A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 						</div>
 					</div>
@@ -85,7 +85,7 @@
 							<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-home"></span></div>
 							<div class="media-body py-md-4">
 								<h3>Wide Range of Properties</h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<p>Select the type that suits your needs best.</p>
 							</div>
 						</div>      
 					</div>
@@ -106,168 +106,6 @@
 								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 							</div>
 						</div>      
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="ftco-section">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-12 heading-section text-center ftco-animate mb-5">
-						<span class="subheading">What we offer</span>
-						<h2 class="mb-2">Featured Properties</h2>
-					</div>
-				</div>
-				<div class="row ftco-animate">
-					<div class="col-md-12">
-						<div class="carousel-properties owl-carousel">
-							<div class="item">
-								<div class="property-wrap ftco-animate">
-									<a href="#" class="img" style="background-image: url(images/work-1.jpg);">
-										<div class="rent-sale">
-											<span class="sale">Sale</span>
-										</div>
-										<p class="price"><span class="orig-price">$300,000</span></p>
-									</a>
-									<div class="text">
-										<ul class="property_list">
-											<li><span class="flaticon-bed"></span>3</li>
-											<li><span class="flaticon-bathtub"></span>2</li>
-											<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
-										</ul>
-										<h3><a href="#">The Blue Sky Home</a></h3>
-										<span class="location">Oakland</span>
-										<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
-											<span class="fa fa-link"></span>
-										</a>
-										<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
-											<div class="d-flex align-items-center">
-												<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-												<h3 class="ml-2">John Dorf</h3>
-											</div>
-											<span class="text-right">2 weeks ago</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="property-wrap ftco-animate">
-									<a href="#" class="img" style="background-image: url(images/work-2.jpg);">
-										<div class="rent-sale">
-											<span class="rent">Rent</span>
-										</div>
-										<p class="price"><span class="old-price">800,000</span><span class="orig-price">$3,050<small> / mo</small></span></p>
-									</a>
-									<div class="text">
-										<ul class="property_list">
-											<li><span class="flaticon-bed"></span>3</li>
-											<li><span class="flaticon-bathtub"></span>2</li>
-											<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
-										</ul>
-										<h3><a href="#">The Blue Sky Home</a></h3>
-										<span class="location">Oakland</span>
-										<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
-											<span class="fa fa-link"></span>
-										</a>
-										<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
-											<div class="d-flex align-items-center">
-												<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-												<h3 class="ml-2">John Dorf</h3>
-											</div>
-											<span class="text-right">2 weeks ago</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="property-wrap ftco-animate">
-									<a href="#" class="img" style="background-image: url(images/work-3.jpg);">
-										<div class="rent-sale">
-											<span class="rent">Rent</span>
-										</div>
-										<p class="price"><span class="orig-price">$300<small> / mo</small></span></p>
-									</a>
-									<div class="text">
-										<ul class="property_list">
-											<li><span class="flaticon-bed"></span>3</li>
-											<li><span class="flaticon-bathtub"></span>2</li>
-											<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
-										</ul>
-										<h3><a href="#">The Blue Sky Home</a></h3>
-										<span class="location">Oakland</span>
-										<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
-											<span class="fa fa-link"></span>
-										</a>
-										<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
-											<div class="d-flex align-items-center">
-												<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-												<h3 class="ml-2">John Dorf</h3>
-											</div>
-											<span class="text-right">2 weeks ago</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="property-wrap ftco-animate">
-									<a href="#" class="img" style="background-image: url(images/work-4.jpg);">
-										<div class="rent-sale">
-											<span class="rent">Rent</span>
-										</div>
-										<p class="price"><span class="orig-price">$300<small> / mo</small></span></p>
-									</a>
-									<div class="text">
-										<ul class="property_list">
-											<li><span class="flaticon-bed"></span>3</li>
-											<li><span class="flaticon-bathtub"></span>2</li>
-											<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
-										</ul>
-										<h3><a href="#">The Blue Sky Home</a></h3>
-										<span class="location">Oakland</span>
-										<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
-											<span class="fa fa-link"></span>
-										</a>
-										<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
-											<div class="d-flex align-items-center">
-												<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-												<h3 class="ml-2">John Dorf</h3>
-											</div>
-											<span class="text-right">2 weeks ago</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="property-wrap ftco-animate">
-									<a href="#" class="img" style="background-image: url(images/work-5.jpg);">
-										<div class="rent-sale">
-											<span class="rent">Rent</span>
-										</div>
-										<p class="price"><span class="orig-price">$300<small> / mo</small></span></p>
-									</a>
-									<div class="text">
-										<ul class="property_list">
-											<li><span class="flaticon-bed"></span>3</li>
-											<li><span class="flaticon-bathtub"></span>2</li>
-											<li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
-										</ul>
-										<h3><a href="#">The Blue Sky Home</a></h3>
-										<span class="location">Oakland</span>
-										<a href="#" class="d-flex align-items-center justify-content-center btn-custom">
-											<span class="fa fa-link"></span>
-										</a>
-										<div class="list-team d-flex align-items-center mt-2 pt-2 border-top">
-											<div class="d-flex align-items-center">
-												<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-												<h3 class="ml-2">John Dorf</h3>
-											</div>
-											<span class="text-right">2 weeks ago</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -348,36 +186,20 @@
 
 		<section class="ftco-counter img" id="section-counter">
 			<div class="container">
-				<div class="row pt-md-5">
+				<div class="row pt-md-5 justify-content-center">
 					<div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
 						<div class="block-18 py-5 mb-4">
 							<div class="text text-border d-flex align-items-center">
-								<strong class="number" data-number="1000">0</strong>
-								<span>Area <br>Population</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-						<div class="block-18 py-5 mb-4">
-							<div class="text text-border d-flex align-items-center">
-								<strong class="number" data-number="2500">0</strong>
+								<strong class="number">{{ $properties }}</strong>
 								<span>Total <br>Properties</span>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
 						<div class="block-18 py-5 mb-4">
-							<div class="text text-border d-flex align-items-center">
-								<strong class="number" data-number="500">0</strong>
-								<span>Average <br>House</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-						<div class="block-18 py-5 mb-4">
 							<div class="text d-flex align-items-center">
-								<strong class="number" data-number="67">0</strong>
-								<span>Total <br>Branches</span>
+								<strong class="number">{{ $bookings }}</strong>
+								<span>Total <br>Bookings</span>
 							</div>
 						</div>
 					</div>
@@ -389,89 +211,8 @@
 			<div class="container">
 				<div class="row justify-content-center mb-5">
 					<div class="col-md-7 text-center heading-section ftco-animate">
-						<span class="subheading">Testimonial</span>
-						<h2 class="mb-3">Happy Clients</h2>
-					</div>
-				</div>
-				<div class="row ftco-animate">
-					<div class="col-md-12">
-						<div class="carousel-testimony owl-carousel">
-							<div class="item">
-								<div class="testimony-wrap py-4">
-									<div class="text">
-										<span class="fa fa-quote-left"></span>
-										<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<div class="d-flex align-items-center">
-											<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-											<div class="pl-3">
-												<p class="name">Roger Scott</p>
-												<span class="position">Marketing Manager</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-wrap py-4">
-									<div class="text">
-										<span class="fa fa-quote-left"></span>
-										<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<div class="d-flex align-items-center">
-											<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-											<div class="pl-3">
-												<p class="name">Roger Scott</p>
-												<span class="position">Marketing Manager</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-wrap py-4">
-									<div class="text">
-										<span class="fa fa-quote-left"></span>
-										<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<div class="d-flex align-items-center">
-											<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-											<div class="pl-3">
-												<p class="name">Roger Scott</p>
-												<span class="position">Marketing Manager</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-wrap py-4">
-									<div class="text">
-										<span class="fa fa-quote-left"></span>
-										<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<div class="d-flex align-items-center">
-											<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-											<div class="pl-3">
-												<p class="name">Roger Scott</p>
-												<span class="position">Marketing Manager</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-wrap py-4">
-									<div class="text">
-										<span class="fa fa-quote-left"></span>
-										<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-										<div class="d-flex align-items-center">
-											<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-											<div class="pl-3">
-												<p class="name">Roger Scott</p>
-												<span class="position">Marketing Manager</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<span class="subheading">Happy Clients</span>
+						<h2 class="mb-3">{{ $feedbacks }} feedbacks recieved so far!</h2>
 					</div>
 				</div>
 			</div>

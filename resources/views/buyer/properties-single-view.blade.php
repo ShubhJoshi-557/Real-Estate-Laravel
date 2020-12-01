@@ -104,7 +104,7 @@
 													<?php										
 														foreach ($yes as $item) {
 															$string = ucwords(str_replace('_',' ',$item));
-															echo "<li class='check'><span class='fa fa-check-circle'></span>$string</li>";
+															echo "<li class='check'><span class='fa fa-check'></span>$string</li>";
 														}
 													?>
 												</ul>
@@ -116,7 +116,7 @@
 													<?php
 														foreach ($no as $item) {
 															$string = ucwords(str_replace('_',' ',$item));
-															echo "<li class='cross'><span class='fa fa-check-circle'></span>$string</li>";
+															echo "<li class='cross'><span class='fa fa-times' style='color: red;'></span>$string</li>";
 														}
 													?>
 												</ul>
