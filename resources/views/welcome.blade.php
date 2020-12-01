@@ -44,8 +44,10 @@
 												<li class="nav-item"><a href="{{ route('admin.register') }}" class="nav-link">Register as Seller</a></li>
 										@endif
 								@endif
-								<li class="nav-item"><a href="{{ route('feedback') }}" class="nav-link">Contact Us</a></li>
-						@endif
+							@endif
+							<li class="nav-item">
+                                <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
+                            </li>
 					</ul>
 				</div>
 			</div>

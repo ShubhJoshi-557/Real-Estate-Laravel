@@ -28,6 +28,7 @@ Route::post('/buyer/make-booking/{id}', [App\Http\Controllers\PropertyBookContro
 
 
 Route::get('/feedback', [App\Http\Controllers\FeedbackController::class, 'index'])->name('feedback');
+Route::post('/create-feedback', [App\Http\Controllers\FeedbackController::class, 'create'])->name('create-feedback');
 
 Route::group(['middleware' => ['auth']], function()
 {

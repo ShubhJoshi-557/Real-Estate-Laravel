@@ -45,14 +45,18 @@
 
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
+                        </li>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login as Buyer') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}">Login as Buyer</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register as Buyer') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">Register as Buyer</a>
                                 </li> 
                             @endif
                         @else
