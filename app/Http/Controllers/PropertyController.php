@@ -145,7 +145,8 @@ class PropertyController extends Controller
         $property_id = json_decode(json_encode($property_id));
         $property_details = json_decode(json_encode($property_details));
         $amenity_details = json_decode(json_encode($amenity_details));
-        // echo "<pre>"; print_r($property_details); die;
+        $amenity_details = $amenity_details[0];
+        // echo "<pre>"; print_r($amenity_details[0]); die;
         return view('edit-properties')->with(compact('property_id','property_details','amenity_details'));
     }
 }

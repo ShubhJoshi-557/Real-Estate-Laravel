@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
     <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -45,9 +45,10 @@
                                 <h3><a href="#">{{ $property -> address }}, {{ $property -> area }}</a></h3>
                                 <span class="location">{{ $property -> city }}</span>
                                 @if( $property -> available == "yes" )
+                                    <br>
                                     <form action="/buyer/make-booking/{{ $property->id }}" method="post">
                                         @csrf
-                                        <input type="submit" value="Book" class="book-button d-flex align-items-center justify-content-center btn-custom">
+                                        <input type="submit" value="Book" class="btn btn-success">
                                     </form>
                                 @else
                                     <br>

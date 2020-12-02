@@ -135,7 +135,7 @@
                             </div>
                         </div>
 
-                       
+                    
 
                         <div class="input-group row">
                             <label class="col-md-4 col-form-label text-md-right">Select image:</label>
@@ -151,7 +151,7 @@
                         <div class="form-group row">
                             <label for="parking" class="col-md-4 col-form-label text-md-right">{{ __('Parking') }}</label>
                             <div class="col-md-6">
-                                <input type="radio" id="yes" name="parking" value="yes" class="ml-4 mt-2 mt-2" required>
+                                <input type="radio" id="yes" name="parking" value="yes" class="ml-4 mt-2 mt-2 radio" required>
                                 <label for="yes">Yes</label>
                                 <input type="radio" id="no" name="parking" value="no" class="ml-4 mt-2">
                                 <label for="no">No</label>

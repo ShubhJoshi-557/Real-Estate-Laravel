@@ -2,7 +2,7 @@
 
 @section('content')
 
-	<section class="hero-wrap hero-wrap-2" style="background-image:url({{url('images/bg_1.jpg')}});" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap hero-wrap-2" style="background-image:url({{url('images/bg.jpg')}});" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -136,9 +136,9 @@
 			<h2 class="ftco-heading-2">Ecoverde</h2>
 			<p>Far far away, behind the word mountains, far from the countries.</p>
 			<ul class="ftco-footer-social list-unstyled mt-5">
-				<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-				<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-				<li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+				<li class=""><a href="#"><span class="fa fa-twitter"></span></a></li>
+				<li class=""><a href="#"><span class="fa fa-facebook"></span></a></li>
+				<li class=""><a href="#"><span class="fa fa-instagram"></span></a></li>
 			</ul>
 			</div>
 		</div>
