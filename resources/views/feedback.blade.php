@@ -61,7 +61,7 @@
                         <div class="form-group row">
                             <label for="first_impression" class="col-md-4 col-form-label text-md-right">What was your first impression when you entered the website?</label>
                             <div class="col-md-6">
-                                <textarea name="first_impression" id="first_impression" cols="20" rows="5" class="form-control" placeholder="Answer"></textarea>
+                                <textarea name="first_impression" id="first_impression" cols="20" rows="5" class="form-control" placeholder="Answer" required></textarea>
                             </div>
                         </div>
 
@@ -69,7 +69,7 @@
                             <label for="hear_about_us" class="col-md-4 col-form-label text-md-right">How did you first hear about us?</label>
 
                             <div class="col-md-6">
-                                <textarea name="hear_about_us" id="hear_about_us" cols="20" rows="5" class="form-control" placeholder="Answer"></textarea>
+                                <textarea name="hear_about_us" id="hear_about_us" cols="20" rows="5" class="form-control" placeholder="Answer" required></textarea>
                             </div>
                         </div>
 
@@ -77,7 +77,7 @@
                             <label for="feedback" class="col-md-4 col-form-label text-md-right">Is there anything missing on this website?</label>
 
                             <div class="col-md-6">
-                                <textarea name="feedback" id="feedback" cols="20" rows="5" class="form-control" placeholder="Answer"></textarea>
+                                <textarea name="feedback" id="feedback" cols="20" rows="5" class="form-control" placeholder="Answer" required></textarea>
                             </div>
                         </div>
                         
