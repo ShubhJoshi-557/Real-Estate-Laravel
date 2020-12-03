@@ -101,6 +101,9 @@ class PropertyController extends Controller
             if($image) {
                 $imagename=$image->getClientOriginalName();
                 $image->move('images',$imagename);
+                Property::where('id',$id)->update([
+                    'image' => $imagename,
+                ]);
             }
             
             Property::where('id',$id)->update([
@@ -112,7 +115,6 @@ class PropertyController extends Controller
                 'city' => $request['city'],
                 'area' => $request['area'],
                 'address' => $request['address'],
-                'image' => $imagename,
             ]);
 
             Amenity::where('property_id',$id)->update([
@@ -146,7 +148,7 @@ class PropertyController extends Controller
         $property_details = json_decode(json_encode($property_details));
         $amenity_details = json_decode(json_encode($amenity_details));
         $amenity_details = $amenity_details[0];
-        // echo "<pre>"; print_r($amenity_details[0]); die;
+        // echo "<pre>"; print_r($amenity_details); die;
         return view('edit-properties')->with(compact('property_id','property_details','amenity_details'));
     }
 }

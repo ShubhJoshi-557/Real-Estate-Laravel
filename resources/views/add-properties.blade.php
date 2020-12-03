@@ -30,7 +30,7 @@
                             <label for="carpet_area" class="col-md-4 col-form-label text-md-right">{{ __('Carpet Area') }}</label>
 
                             <div class="col-md-6">
-                                <input id="carpet_area" type="number" min="100" class="form-control @error('carpet_area') is-invalid @enderror" name="carpet_area" required autofocus>
+                                <input id="carpet_area" type="number" min="100" class="form-control @error('carpet_area') is-invalid @enderror" name="carpet_area" placeholder="in sqft" required autofocus>
 
                                 @error('carpet_area')
                                     <span class="invalid-feedback" role="alert">
