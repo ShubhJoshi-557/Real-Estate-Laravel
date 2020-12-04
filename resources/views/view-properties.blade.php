@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
     <div class="col-md-9 pb-0 text-center">
-        <h1 class="mb-3 bread">Your Bookings</h1>
+        <h1 class="mb-3 bread">Manage Properties</h1>
     </div>
     </div>
 </div>
@@ -31,7 +31,7 @@
         <section class="ftco-section goto-here">
             <div class="justify-content-center">
                 <div class="col-md-12 heading-section text-center mb-5">
-                    <span class="subheading">Your Bookings</span>
+                    <span class="subheading">Manage Properties</span>
                     <h2 class="mb-2">Properties</h2>
                 </div>
             </div>
