@@ -33,21 +33,49 @@
 							<li class="nav-item active"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
 							@if (Route::has('login'))
 								@auth
-										<li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Buyer Login</a></li>
-										<li class="nav-item"><a href="{{ route('admin.login') }}" class="nav-link">Seller Login</a></li>
+										<li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Buyer Dashboard</a></li>
 								@else
-										<li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Buyer Login</a></li>
-										<li class="nav-item"><a href="{{ route('admin.login') }}" class="nav-link">Seller Login</a></li>
-
+								@auth('admin')
+										<li class="nav-item"><a href="{{ route('admin.login') }}" class="nav-link">Seller Dashboard</a></li>
+								@else
+									<li class="nav-item dropdown">
+										<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+											Login
+										</a>
+										<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="{{ route('login') }}">
+												Buyer Login
+											</a>
+											<a class="dropdown-item" href="{{ route('admin.login') }}">
+												Seller Login
+											</a>
+										</div>
+									</li>
 										@if (Route::has('register'))
-												<li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Register as Buyer</a></li>
-												<li class="nav-item"><a href="{{ route('admin.register') }}" class="nav-link">Register as Seller</a></li>
+												<li class="nav-item dropdown">
+													<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+														Register
+													</a>
+													<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+														<a class="dropdown-item" href="{{ route('register') }}">
+															Buyer Registration
+														</a>
+														<a class="dropdown-item" href="{{ route('admin.register') }}">
+															Seller Registration
+														</a>
+													</div>
+												</li>
 										@endif
+								@endif
 								@endif
 							@endif
 							<li class="nav-item">
+                            	<a class="nav-link" href="{{ url('aboutus') }}">About Us</a>
+                        	</li>
+							<li class="nav-item">
                                 <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
                             </li>
+							
 					</ul>
 				</div>
 			</div>

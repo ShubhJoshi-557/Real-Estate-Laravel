@@ -40,6 +40,10 @@ Route::group(['middleware' => ['auth:admin']], function()
     Route::get('admin/property-single-view/{id}', [App\Http\Controllers\PropertySingleViewController::class, 'viewSinglePropertyAsSeller']);
 });
 
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
 Route::prefix('admin')->group(function() {
     Route::get('/login', [App\Http\Controllers\Auth\AdminLoginController::class, 'showLoginForm'])->name('admin.login');
     Route::post('/login', [App\Http\Controllers\Auth\AdminLoginController::class, 'login'])->name('admin.login.submit');

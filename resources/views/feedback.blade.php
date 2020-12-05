@@ -83,7 +83,7 @@
                         
                         <div class="form-group row">
                             <label for="recommend_us" class="col-md-4 col-form-label text-md-right">How likely are you to recommend us to a friend or
-colleague?</label>
+                                colleague?</label>
                             <div class="col-md-6">
                                 <select id="recommend_us" name="recommend_us">
                                     <option value="Very likely">Very likely</option>
@@ -97,7 +97,7 @@ colleague?</label>
                         
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                            <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                            <input type="submit" value="Send Feedback" class="btn btn-primary py-3 px-5">
                             </div>
                         </div>
                     </form>

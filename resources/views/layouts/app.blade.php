@@ -46,18 +46,35 @@
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
                         
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
-                        </li>
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">Login as Buyer</a>
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    Login
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('login') }}">
+                                        Buyer Login
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('admin.login') }}">
+                                        Seller Login
+                                    </a>
+                                </div>
                             </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">Register as Buyer</a>
-                                </li> 
+							@if (Route::has('register'))
+								<li class="nav-item dropdown">
+							    	<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+										Register
+									</a>
+									<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="{{ route('register') }}">
+											Buyer Registration
+										</a>
+										<a class="dropdown-item" href="{{ route('admin.register') }}">
+											Seller Registration
+										</a>
+									</div>
+								</li>
                             @endif
                         @else
                             <li class="nav-item dropdown">
@@ -78,6 +95,13 @@
                                 </div>
                             </li>
                         @endguest
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('aboutus') }}">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
+                        </li>
+                        
                     </ul>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
