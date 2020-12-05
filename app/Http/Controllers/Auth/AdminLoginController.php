@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-
+use Redirect;
+use Illuminate\Support\MessageBag;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Auth;
@@ -29,7 +30,7 @@ class AdminLoginController extends Controller
             return redirect()->intended(route('admin.dashboard'));  
         }
 
-        return redirect()->back()->withInput($request->only('email','remember'));
+        return redirect()->back()->withErrors(['email' => ['These credentials do not match our records.']])->withInput($request->only('email','remember'));
 
     }
 }
