@@ -26,8 +26,7 @@
         <div class="row justify-content-center">
 			<div class="col-md-12 text-center heading-section heading-section-grey">
 				<span class="subheading">About Us</span>
-                <p><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, officiis? Quidem quas similique deserunt aliquid accusamus natus vero id fuga assumenda omnis dicta, vel consequuntur tempora ullam itaque incidunt alias!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloribus doloremque reprehenderit. Id laborum corrupti adipisci fugiat veritatis ratione commodi itaque repellat incidunt dignissimos, asperiores nemo doloribus! Veritatis, nostrum excepturi! <br></p>
+                <p><br>Gone are the days when people used to deal property matters on the basis of "mouth to mouth publicity" or nearby dealers. Globalization and fast lifestyle has encouraged the real estate industry to step in E-World. Now active partakers of real estate world are eagerly seeking the right options to establish themselves in E-Real Estate World. EZHomes is a solution to all what bothers to people who all are dealing in properties or people who all are searching property. As one of the leading property portals, EZHomes has tuned itself with pulse of real estate sector. Moving ahead with esteemed registered users and regularly visited by players of real estate industry, EZHomes has become the pivot for real-estate sector <br></p>
 			</div>
 		</div>
         <div class="row justify-content-center">

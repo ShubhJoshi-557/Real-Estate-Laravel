@@ -118,7 +118,7 @@
 						<div class="media block-6 services services-bg d-block text-center px-4 py-5">
 							<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-stats"></span></div>
 							<div class="media-body py-md-5">
-								<h3>Financing Made Easy</h3>
+								<h3>Choose a property that suits your budget</h3>
 							</div>
 						</div>      
 					</div>
@@ -126,7 +126,7 @@
 						<div class="media block-6 services services-bg d-block text-center px-4 py-5">
 							<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-quarantine"></span></div>
 							<div class="media-body py-md-5">
-								<h3>Locked in Pricing</h3>
+								<h3>No third party involved</h3>
 							</div>
 						</div>      
 					</div>
